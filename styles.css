@@ -1,0 +1,22 @@
+body {
+    background-color: azure;
+}
+
+#omaha, #lincoln {
+    padding:0
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#header {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+}
+
+.headers {
+    color:midnightblue
+}

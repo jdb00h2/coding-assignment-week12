@@ -128,7 +128,8 @@ class DOMManager1 {
             $('#omaha').append(
                `<div class='card'>
                <div id='header'>
-               <h2>${team.name}<br> ${team.owner}</h2>
+               <h2>${team.name}</h2> 
+               <h3>${team.owner}</h3>
                <button class="btn btn-danger form-control" onclick="DOMManager1.deleteTeam('${team._id}')">Delete Team</button>
                 </div>
                 <div id="${team._id}">

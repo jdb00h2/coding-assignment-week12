@@ -145,7 +145,6 @@ class DOMManager {
                                 <option value="TE">TE</option>
                                 <option value="D/ST">D/ST</option>
                                 <option value="K">K</option>
-                                </select>
                             </th>
                             <th scope='col'><select id="${team._id}-player-team" class="form-select">
                                 <option selected>Choose Team</option>
@@ -181,8 +180,8 @@ class DOMManager {
                                 <option value="TB">Tampa Bay Buccaneers</option>
                                 <option value="Ten">Tennessee Titans</option>
                                 <option value="Wsh">Washington Commanders</option>
+                                <option value="FA">Free Agent</option>
                             </th>    
-                </select>
                             <th scope='col'><button id="${team._id}-new-player" onclick="DOMManager.addPlayer('${team._id}')" class="btn btn-primary">Add Player</button></th>
                             </tr>
                             <tr>
